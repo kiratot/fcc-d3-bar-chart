@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+:root {
+  --main: #2e2e2e;
+  --primary: #004c6d;
+  --secondary: #86b0cc;
+  --hover: #c1e7ff;
+}
+
+html {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  margin: 1em 0 1em 0;
+}
+
+#title {
+  text-shadow: 0px 0px 5px black;
+  color: var(--secondary);
+}
+
+svg:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+svg {
+  border-radius: 1em;
+  background-color: var(--main);
+  box-shadow: 0px 0px 5px black;
+  transition: 150ms ease-in-out;
+}
+
+rect {
+  fill: var(--primary);
+}
+
+rect:hover {
+  fill: var(--secondary);
+}
+
+#tooltip {
+  transition: opacity 300ms ease-in-out;
+  text-align: center;
+  position: absolute;
+  background-color: var(--hover);
+  border-radius: 1em;
+  padding: 1em;
+  color: var(--main);
+}
+
+#tooltip::first-line {
+  font-weight: 700;
+}
+
+.yaxis-label {
+  fill: var(--secondary);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}

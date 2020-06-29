@@ -1,0 +1,14 @@
+{
+  "name": "visualize-data-d3-bar-chart",
+  "version": "1.0.0",
+  "description": "simple bar chart with d3",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chart"
+  ],
+  "author": "Kiratot",
+  "license": "ISC"
+}
